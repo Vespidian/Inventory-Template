@@ -18,7 +18,8 @@ To clear a slot use:
 inventoryAdd(0, cell, 0);
 ```
 cell being the slot you want to clear
-
+You can play around with adding items by opening up inspect element (F12)
+and going to console, after you do this you just input the function as explained above.
 
 
 
