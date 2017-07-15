@@ -1,5 +1,4 @@
 # Inventory-Template
-<<<<<<< HEAD
 A template for a game inventory, fully customize-able. You can add as many items as needed per your game.
 
 To add an item to the inventory, you have to use the following function:
@@ -23,6 +22,3 @@ cell being the slot you want to clear
 - Check out the <a href="https://github.com/Vespidian/Inventory-Template/wiki">wiki</a> for more details.
 
 - Check out my <a href="https://vespidian.github.io/">website</a> to see other stupid things I do / make.
-=======
-A template for a game inventory, fully customize-able. You can add as many items as needed per your game.
->>>>>>> aaf13ae7c687f7d66dc7afdabcec07f692473143
