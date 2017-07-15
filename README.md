@@ -19,6 +19,9 @@ inventoryAdd(0, cell, 0);
 ```
 cell being the slot you want to clear
 
+
+
+
 - Check out the <a href="https://github.com/Vespidian/Inventory-Template/wiki">wiki</a> for more details.
 
 - Check out my <a href="https://vespidian.github.io/">website</a> to see other stupid things I do / make.
