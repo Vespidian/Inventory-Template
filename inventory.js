@@ -435,8 +435,15 @@ function inventoryAdd (itemN, cell, amount) {
 }
 //DO NOT EDIT BEFORE THIS LINE! (Unless you know what you're doing.)
 
-
 //ITEMS / FEEL FREE TO ADD AS MANY ITEMS AS YOU WANT. BUT ALWAYS KEEP THE EMPTY ITEM THERE AND FOLLOW THE SAME CONVENTIONS.
+
+
+//USE THIS TO ADD EXTRA CELLS.
+inventory.push(
+
+);
+
+//ADD OBJECTS TO THIS VARIABLE TO ADD ITEMS. (see wiki for more info)
 var possibleItems = [
   {
     itemName: "empty",
@@ -465,19 +472,19 @@ var possibleItems = [
   }
 ]
 
-/*
-To add an item to the inventory, you have to use the following function:
-addToInv(itemnumber, cellnumber, itemamount);
-itemnumber being the item to be added to the inventory.
-cellnumber being the cell to add the item to.
-itemamount being the amount of the item to add.
-i.e:
-inventoryAdd(2, 23, 5);
-will add 5 piece of dirt to slot 23.
-to clear a slot use:
-inventoryAdd(0, cell, 0);
-cell being the slot you want to clear.
-*/
+
+//To add an item to the inventory, you have to use the following function:
+//inventoryAdd(itemnumber, cellnumber, itemamount);
+//itemnumber being the item to be added to the inventory.
+//cellnumber being the cell to add the item to.
+//itemamount being the amount of the item to add.
+//i.e:
+//inventoryAdd(2, 23, 5);
+//will add 5 piece of dirt to slot 23.
+//to clear a slot use:
+//inventoryAdd(0, cell, 0);
+//cell being the slot you want to clear.
+
 //START YOUR WORK FROM HERE DOWN
 function setup (){
 //Add 7 grass to cell 5.
