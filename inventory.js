@@ -406,6 +406,7 @@ function inventoryAdd (itemN, cell, amount) {
   if (itemN >= 1) {
     if (inventory[cell].itemAmount + amount >= 1) {
     inventory[cell].empty = false;
+    document.getElementById(inventory[cell].slotId).setAttribute('title',possibleItems[itemN].itemName);
       if (inventory[cell].itemNumber == itemN) {
         inventory[cell].itemAmount = inventory[cell].itemAmount + amount;
         document.getElementById(inventory[cell].slotId).innerHTML = img;
@@ -424,6 +425,7 @@ function inventoryAdd (itemN, cell, amount) {
       inventory[cell].itemNumber = 0;
       inventory[cell].itemAmount = 0;
       inventory[cell].empty = true;
+      document.getElementById(inventory[cell].slotId).setAttribute('title', "");
     }
   } else {
     document.getElementById(inventory[cell].slotId).innerHTML = " ";
@@ -431,6 +433,7 @@ function inventoryAdd (itemN, cell, amount) {
     inventory[cell].itemNumber = 0;
     inventory[cell].itemAmount = 0;
     inventory[cell].empty = true;
+    document.getElementById(inventory[cell].slotId).setAttribute('title', "");
   }
 }
 //DO NOT EDIT BEFORE THIS LINE! (Unless you know what you're doing.)
@@ -466,7 +469,7 @@ var possibleItems = [
     itemNumber: 3,
   },
   {
-    itemName: "Dirt",
+    itemName: "Coal",
     itemImage: "<img src='data/images/4.png'>",
     itemNumber: 4,
   }
