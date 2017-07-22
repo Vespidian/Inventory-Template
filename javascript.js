@@ -1,7 +1,7 @@
 document.onkeydown = checkKey;
 
 function checkKey(e) {
-  var inv = document.getElementById("inventory");
+  var inv = document.getElementById("invhide");
     e = e || window.event;
 
     if (e.keyCode == '69') {
