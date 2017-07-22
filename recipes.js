@@ -7,7 +7,5 @@ function onCraft (item0, item1, item2, item3, itemN, amount) {
     outSlot[0].empty = false;
     document.getElementById(outSlot[0].slotId).innerHTML = img;
     document.getElementById(outSlot[0].slotId).innerHTML = document.getElementById(outSlot[0].slotId).innerHTML + "<p>" + outSlot[0].itemAmount + "</p>";
-
-    console.log("Dirt?");
   }
 }
