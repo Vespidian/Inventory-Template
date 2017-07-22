@@ -402,57 +402,6 @@ var inventory =  [
     ]
 
 
-
-    var cInventory = [
-          {
-            item: "empty",
-            itemNumber: 0,
-            slotNumber: 0,
-            slotId: "c-cell0",
-            itemAmount: 0,
-            empty: true,
-          },
-          {
-            item: "empty",
-            itemNumber: 0,
-            slotNumber: 1,
-            slotId: "c-cell1",
-            itemAmount: 0,
-            empty: true,
-          },
-          {
-            item: "empty",
-            itemNumber: 0,
-            slotNumber: 2,
-            slotId: "c-cell2",
-            itemAmount: 0,
-            empty: true,
-          },
-          {
-            item: "empty",
-            itemNumber: 0,
-            slotNumber: 3,
-            slotId: "c-cell3",
-            itemAmount: 0,
-            empty: true,
-          },
-        ]
-
-
-
-      var outSlot = [
-        {
-          item: "empty",
-          itemNumber: 0,
-          slotNumber: 0,
-          slotId: "c-out",
-          itemAmount: 0,
-          empty: true,
-        },
-      ]
-
-
-
     var possibleItems = [
       {
         itemName: "empty",
